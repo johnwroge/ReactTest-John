@@ -1,0 +1,30 @@
+
+
+
+.card {
+    display: inline-block;
+    max-width: 70%; 
+    width: auto;
+    border: 1px solid #ccc; 
+    padding: 10px; 
+  }
+
+  .card img {
+    max-width: 80%; 
+    height: auto; 
+  }
+
+  .search__input {
+    margin-bottom: 20px;
+    
+  }
+
+  .filter__inputs {
+    display: flex;
+    gap: 20px; 
+}
+
+.filter__inputs div {
+  display: inline-block;
+  flex: 1; 
+}

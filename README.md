@@ -27,3 +27,33 @@ Register for an account to obtain an app-id, and use that app-id for authorizati
 [Documentation](https://nextjs.org/docs/getting-started)
 
 The bootstrapped React app provided in this repo is using NextJS. If you are unfamiliar with NextJS, the documentation is listed above!
+
+
+Ticket 1 
+
+To run application, 
+
+Create an env file in root directory with app-id in following format:
+
+ex: 
+```
+NEXT_PUBLIC_APP_ID = 6545...
+```
+
+In terminal install needed dependencies.
+
+```
+npm install
+```
+
+Build production app 
+
+```
+npm run build
+```
+
+Start app on local server
+```
+npm run start
+```
+
