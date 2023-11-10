@@ -57,3 +57,4 @@ Start app on local server
 npm run start
 ```
 
+Visit  http://localhost:3000 to use application in browser. 
