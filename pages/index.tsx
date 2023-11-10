@@ -3,14 +3,11 @@ import { useState, useEffect } from "react";
 import utilStyles from '../styles/utils.module.css'
 import Link from 'next/link';
 
-
 const BASE_URL = `https://dummyapi.io/data/v1/`
 const APP_ID = process.env.NEXT_PUBLIC_APP_ID; 
 
 
-// image, text, owner (firstName, lastName, picture) and link
 const IndexPage = (): JSX.Element => {
-
 
 	const [posts, setPosts] = useState<Post[]>([]);
 	const [searchResults, setSearchResults] = useState<Post[]>([]);
@@ -51,9 +48,6 @@ const IndexPage = (): JSX.Element => {
 			setSearchResults(data.data)
 		})
 	},[])
-
-
-
 
 
 	const display = searchResults.map((el, i) => (
@@ -100,8 +94,6 @@ const IndexPage = (): JSX.Element => {
             setSearchResults(filteredPostsByProperty);
         }
     };
-
-
 
 return (
 	<Layout>
